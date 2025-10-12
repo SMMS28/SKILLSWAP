@@ -14,6 +14,13 @@ A peer-to-peer skill exchange platform built with React and Node.js, designed fo
 - **Rating System**: Rate completed exchanges (students rate teachers)
 - **Swedish Localization**: Optimized for Swedish users and locations
 
+## 📸 Screenshots
+
+Check out the [screenshots directory](./screenshots/) to see the application in action! The repository includes comprehensive screenshots of all major features and pages.
+
+- **📱 Application Screenshots**: [screenshots/README.md](./screenshots/README.md)
+- **📸 Screenshot Guide**: [SCREENSHOTS_GUIDE.md](./SCREENSHOTS_GUIDE.md)
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -209,6 +216,22 @@ npm run test:coverage
 npm run test:unit
 npm run test:integration
 npm run test:frontend
+```
+
+## 📸 Taking Screenshots
+
+To capture screenshots of the application for documentation:
+
+```bash
+# Start the application
+npm run dev
+npm run client
+
+# Run the screenshot helper script
+./scripts/take-screenshots.sh
+
+# Follow the guide for capturing screenshots
+# See SCREENSHOTS_GUIDE.md for detailed instructions
 ```
 
 ## 🚀 Deployment
