@@ -19,7 +19,7 @@
       "type": "shell",
       "command": "npm install",
       "options": {
-        "cwd": "${workspaceFolder}/src/frontend"
+        "cwd": "${workspaceFolder}/frontend"
       },
       "group": "build",
       "presentation": {
@@ -61,7 +61,7 @@
       "type": "shell",
       "command": "npm start",
       "options": {
-        "cwd": "${workspaceFolder}/src/frontend"
+        "cwd": "${workspaceFolder}/frontend"
       },
       "group": "build",
       "presentation": {
@@ -90,7 +90,7 @@
       "type": "shell",
       "command": "npm run build",
       "options": {
-        "cwd": "${workspaceFolder}/src/frontend"
+        "cwd": "${workspaceFolder}/frontend"
       },
       "group": "build",
       "presentation": {
